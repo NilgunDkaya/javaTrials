@@ -33,7 +33,7 @@ public class Calculator {
 				if(second!=0)
 					System.out.println("" +first +" / " +second +" = " +(first/second));
 				else
-					System.out.println("" +first +" can not be divided by " +second);
+					System.out.println("Any number can not be divided by 0!");
 				break;
 			default:
 				System.out.println("Please enter a valid option!");
