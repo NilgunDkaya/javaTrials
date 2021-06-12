@@ -30,7 +30,10 @@ public class Calculator {
 				System.out.println("" +first +" * " +second +" = " +(first*second));
 				break;
 			case 4:
-				System.out.println("" +first +" / " +second +" = " +(first/second));
+				if(second!=0)
+					System.out.println("" +first +" / " +second +" = " +(first/second));
+				else
+					System.out.println("" +first +" can not be divided by " +second);
 				break;
 			default:
 				System.out.println("Please enter a valid option!");
