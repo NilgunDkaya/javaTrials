@@ -15,9 +15,8 @@ public class Calculator {
 		
 		System.out.println("First number : " +first + " Second number : " +second);
 		
-		System.out.println("Enter an option for calculation");
 		System.out.println("1 - Addition\n2 - Subtraction\n3 - Multiplication\n4 - Division");
-		
+		System.out.println("Enter an option for calculation");
 		int selection = input.nextInt();
 		
 		switch(selection){
