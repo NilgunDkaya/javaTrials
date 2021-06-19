@@ -9,14 +9,16 @@ public class FindTheLetter {
         
         System.out.print("Enter a sentence or a word : ");
         String sentence = scan.nextLine();
+	System.out.print("Enter a letter to find : ");
+        char letter = scan.next().charAt(0);
  
         for(int i = 0; i < sentence.length(); i++)
         {
-            if(sentence.charAt(i) == 'a' || sentence.charAt(i) == 'A') {
+            if(sentence.charAt(i) == Character.toLowerCase(letter) || sentence.charAt(i) == Character.toUpperCase(letter)) {
             	counter++;
             }
         }
-        System.out.println("There are " + counter + " 'a' letters in the sentence or word.");
+        System.out.println("There are " + counter +" " +letter +" letters in the sentence or word.");
 	}
 
 }
