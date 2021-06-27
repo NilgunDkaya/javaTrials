@@ -28,7 +28,7 @@ public class LeastCommonFloor {
 					divisor++;
 			}
 		}
-		System.out.println("Okek for " +s1 +" and " +s2 +" is " +s);
+		System.out.println("The least common floor for " +s1 +" and " +s2 +" is " +s);
 	}
 
 }
