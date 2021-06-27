@@ -24,9 +24,8 @@ public class LeastCommonFloor {
 					if (n2 % divisor == 0)
 						n2 /= divisor;
 				}
-				else {
+				else
 					divisor++;
-				}
 			}
 		}
 		System.out.println("Okek for " +s1 +" and " +s2 +" is " +s);
