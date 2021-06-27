@@ -7,7 +7,7 @@ public class GreatestCommonDivisor {
 	public void findGreatestCommonDivisor() {
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter two number for calculating okek : ");
+		System.out.println("Enter two number for calculating greatest common divisor : ");
 		Integer s1 = scan.nextInt();
 		Integer s2 = scan.nextInt();
 		
